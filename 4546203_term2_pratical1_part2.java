@@ -3,7 +3,7 @@ public class BinaryTree<E> {
   private BinaryTree<E> root;
 
   // default constructor 
-  public class BinaryTree(T value){
+  public class BinaryTree(E value){
   this.size=size;
   this.root=null;
   
@@ -16,7 +16,7 @@ public class BinaryTree( ) {
     }
 // Getter method 
 public int getSize() { return size;}
-public BinaryTree getoot() { return root;}
+public BinaryTree getRoot() { return root;}
 
 //Setter method
 public void setSize (int Size) {this.size = size;}
