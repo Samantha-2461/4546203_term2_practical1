@@ -9,7 +9,7 @@ public class BinaryTreeNode<E> {
   private BinaryTreeNode<E> right;
   
   // default constructor 
-  public class BinaryTreeNode(T value){
+  public class BinaryTreeNode(E value){
   this.value=value;
   this.left=null;
   this.Right=null;
